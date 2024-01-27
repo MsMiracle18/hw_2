@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dz-2"
+version = "0.1.0"
+description = ""
+authors = ["9-Bogdan <127949078+9-Bogdan@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "dz_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.2"
+matplotlib = "^3.8.2"
+seaborn = "^0.13.0"
+pandas = "^2.1.3"
+notebook = "^7.0.6"
+lxml = "^4.9.3"
+html5lib = "^1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
